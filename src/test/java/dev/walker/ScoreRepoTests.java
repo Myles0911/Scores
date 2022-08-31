@@ -27,7 +27,7 @@ public class ScoreRepoTests {
 
     @Test
     public void get_score_by_id() {
-        Score score = this.scoreRepo.findById(105).get();
+        Score score = this.scoreRepo.findById(102).get();
         System.out.println(score);
     }
 
@@ -49,8 +49,8 @@ public class ScoreRepoTests {
         this.scoreRepo.save(replaceScore);
     }
 
-    @Test
-    public void delete_Score() {
-    Score deleteScore = this.scoreRepo.deleteAllById(105);
-    }
+    //@Test
+   // public void delete_Score() {
+   // Score deleteScore = this.scoreRepo.deleteAllById(105);
+   // }
 }

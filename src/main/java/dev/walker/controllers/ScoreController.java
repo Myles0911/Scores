@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 @Controller
 public class ScoreController {
-    //Logger logger = LogManager.getLogManager().getLogger(ScoreController.class);
+    Logger logger = LogManager.getLogManager().getLogger(ScoreController.class);
 
     @Autowired
     ScoreService scoreService;
