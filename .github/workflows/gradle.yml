@@ -7,7 +7,7 @@
 
 name: Java CI with Gradle
 env:
-  SCORES_DB: ${{secrets.SCORES_DB}}
+  SCORE_DB: ${{secrets.SCORE_DB}}
 
 on:
   push:
